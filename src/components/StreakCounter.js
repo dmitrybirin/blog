@@ -21,3 +21,7 @@ const StreakCounter = ({ dates }) => {
 };
 
 export default StreakCounter;
+
+StreakCounter.propTypes = {
+  dates: PropTypes.array.isRequired,
+};
