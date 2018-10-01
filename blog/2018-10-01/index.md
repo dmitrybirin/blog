@@ -12,3 +12,5 @@ So I'll be writing here everyday for next month.
 I've called it ~~Coctober~~ **Codetober**!
 
 Release the streak counter!
+
+As a first thing, I did this blog. It's on [Gatsby](https://www.gatsbyjs.org). Gatsby is cool. Use Gatsby.

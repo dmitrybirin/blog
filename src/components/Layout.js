@@ -83,9 +83,11 @@ const Layout = ({ children }) => (
           {children}
           <Footer>
             &copy; 2018 by Dmitry Birin. All rights reserved. <br />
-            <a href="https://github.com/ahmadawais/gatsby-minimal-blog">GitHub Repository</a> <br />
-            Created with Gatsby and open source. <Link to="/thankyou">Thank you</Link>
-            <span>Last build: {data.site.buildTime}</span>
+            <a href="https://github.com/dmitrybirin/blog">GitHub Repository</a> <br />
+            Created with Gatsby and open source. <Link to="/thankyou">Thank you!</Link>
+            <p>
+              <span>Last build: {data.site.buildTime}</span>
+            </p>
           </Footer>
         </React.Fragment>
       </ThemeProvider>

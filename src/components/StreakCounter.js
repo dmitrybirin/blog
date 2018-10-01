@@ -12,12 +12,21 @@ const getDateArray = (start, end) => {
 };
 
 const StreakCounter = ({ dates }) => {
-  const startDate = new Date('2018-01-01');
-  const endDate = new Date('2018-02-01');
+  const startDate = new Date('2018-10-01');
+  const endDate = new Date('2018-10-31');
   const writes = getDateArray(startDate, endDate).map(date => dates.map(d => +new Date(d)).includes(date));
   const streaks = writes.reduce((res, n) => (n ? res[res.length - 1]++ : res.push(0), res), [0]);
   const count = Math.max(...streaks);
-  return <h1>{count}</h1>;
+  return (
+    <div>
+      <h3>
+        Codetober
+        <br />
+        Streak Counter
+      </h3>
+      <h1>{count}</h1>
+    </div>
+  );
 };
 
 export default StreakCounter;

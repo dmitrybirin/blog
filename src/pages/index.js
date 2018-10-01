@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 import styled from 'styled-components';
 import { media } from '../utils/media';
+import theme from '../../config/Theme';
 
 const Content = styled.div`
   grid-column: 2;
@@ -23,12 +24,19 @@ const Title = styled.h1`
   text-align: center;
 `;
 const SmallTitle = styled.h2`
-  text-align: center;
+  color: ${theme.colors.primary};
 `;
 
-const Ink = styled.span`
+const Bold = styled.span`
   font-size: 30px;
   font-style: italic;
+  font-weight: 800;
+`;
+
+const TitleDiv = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 `;
 
 const Hero = styled.div`
@@ -58,17 +66,15 @@ const IndexPage = ({
   <Layout>
     <Wrapper>
       <Hero>
-        <Title>Yet Another Blog</Title>
-        <SmallTitle>Codetober</SmallTitle>
+        <TitleDiv>
+          <Title>Yet Another Blog</Title>
+          <SmallTitle>Codetober</SmallTitle>
+        </TitleDiv>
         <p>
-          Hello, Hello! My name is Dmitry Birin and every other year I'm trying to write into blog. This is it. Yet
-          another blog about technologies that I tried.
+          Hello, Hello! My name is <Bold>Dmitry Birin</Bold> and every other year I'm trying to write into blog.{' '}
+          <Bold>This is it.</Bold> Yet another blog about technologies that I tried.
         </p>
         <br />
-        <p>
-          Many of my friends are artists, like, real artist and they all gone to <Ink>Inktober</Ink> like at war. And I
-          don't wanna left them there. So I'll be writing here everyday for next month. Release the streak counter!
-        </p>
         <StreakCounter dates={postEdges.map(post => post.node.frontmatter.date)} />
       </Hero>
       <Content>

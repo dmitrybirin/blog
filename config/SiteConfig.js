@@ -3,7 +3,7 @@ module.exports = {
 
   siteTitle: 'YABYAB', // Navigation and Site Title
   siteTitleAlt: 'Yet Another Birin - Yet Another Blog', // Alternative Site title for SEO
-  siteUrl: 'https://', // Domain of your site. No trailing slash!
+  siteUrl: 'https://dmitrybirin.github.io', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteBanner: '/social/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder
