@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-sitemap: https://dmitrybirin.github.io/sitemap.xml
+sitemap: https://dmitrybirin.netlify.com/sitemap.xml
