@@ -1,6 +1,6 @@
 ---
-date: "2018-10-04"
-title: "Coffee Counter (where counter is a model)"
+date: "2018-10-05"
+title: "Star Wars Random with Mobx state tree"
 category: "Codectober"
 ---
 
