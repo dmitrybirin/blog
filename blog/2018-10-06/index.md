@@ -4,7 +4,7 @@ title: "Mobx state tree continues"
 category: "Codectober"
 ---
 
-Lazy Friday, but got the prototype with mobx-state-tree working further.
+Lazy Saturday, but got the prototype with mobx-state-tree working further.
 
 The more I playing with it, the more I like it.
 
