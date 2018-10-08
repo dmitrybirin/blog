@@ -1,6 +1,6 @@
 ---
 date: "2018-10-07"
-title: "Mobx is "
+title: "Mobx and Vue"
 category: "Codectober"
 ---
 
