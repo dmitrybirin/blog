@@ -7,7 +7,7 @@ category: 'Codectober'
 I'm slowly getting back on the coffee road.
 Sometimes, when you want to describe the taste of a good cup of coffee, people using `flavor wheel`.
 It looks like this:
-![alt text](http://postprohibition.com/wp-content/uploads/2014/12/Flavor-Wheel-Four-Roses-LE-Barrel-Strength-2014-2.jpg "Whisky from http://postprohibition.com")
+![alt text](./flavorwheelwhiski.jpg "Whisky from http://postprohibition.com")
 
 Well, it's for whisky, but you've got the idea.
 
