@@ -1,6 +1,6 @@
 ---
 date: "2018-10-30"
-title: "Aftermath"
+title: "Security"
 category: "Codectober"
 ---
 
@@ -13,7 +13,7 @@ To cover it a bit, firstly I've enabled firewall on server:
 Its [ufw](https://en.wikipedia.org/wiki/Uncomplicated_Firewall). Easy to use firewall.
 Here is a good [tutorial](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-firewall-with-ufw-on-ubuntu-16-04) from Digital Ocean.
 
-Secondly, I limit my nginx to answer only from the frontend IP and from my home.
+Secondly, I limit my nginx to answer only from my home just for now.
 If is [evil](https://www.nginx.com/resources/wiki/start/topics/depth/ifisevil/), but whatever, I'm a teapot.
 ```
 ...
