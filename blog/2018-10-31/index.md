@@ -38,7 +38,8 @@ I'll forever save that little kid that curious and open to new things, but be le
 
 I think I'll stop to write here everyday.
 But...
-![Alt Text](http://24.media.tumblr.com/e1e074f3f5c0269e7733e1886b887f1a/tumblr_mxz7iedajb1t4io7mo5_250.gif)
+
+![Alt Text](./doctor.gif)
 
 but in a good mood:)
 
